@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Witcher";
+  src: url("font/MORPHEUS.TTF");
+}
+
+body{
+	background: url(../css/images/witcher.jpg) fixed no-repeat;
+	background-size: 100%;
+}
+
+
+
+
+h1{
+	margin:30px 0;
+	color: white;
+	font-size: 100px;
+	text-align: center;
+	font-family: "Witcher";
+}
+
+
+#map {
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 800px;
+	height: 600px;
+	background-color: grey;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#roadform{
+
+	background-color: #fff;
+	padding: 220px 5px 5px 5px;
+	border: 1px solid #999;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	width : 300px;
+	height: 600px;
+	background: url(../css/images/ciri2.jpg)  no-repeat;
+
+}
+
+#roadform input {
+
+	width: 250px;
+	padding: 5px 15px;
+	margin: 20px 0;
+	border-radius: 20px;
+}
+
+#container {
+
+	width: 1460px;
+	margin: auto;
+
+}
+
+#panel {
+
+
+	background: url(../css/images/geralt.jpg) no-repeat;
+	background-size: 100%;
+	width: 350px;
+	/*opacity: 0.9;*/
+	height: 600px;
+	overflow: auto;
+	display: inline-block;
+	vertical-align: top;
+}
+
